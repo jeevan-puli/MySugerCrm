@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.SugerCrm.DemoLoginPageTest">
+        <methods>
+          <include name="verifyContactUsText"/>
+          <include name="DateDDVisible"/>
+          <include name="quitBrowser"/>
+          <include name="LoginAsSR"/>
+          <include name="verifyDemoText"/>
+          <include name="LoginAsVP"/>
+          <include name="verifyPreferenceText"/>
+          <include name="LanguageDDVisible"/>
+          <include name="LoginAsCS"/>
+          <include name="verifyResourceLink"/>
+          <include name="openDemoPage"/>
+          <include name="checkResourceCenterText"/>
+        </methods>
+      </class> <!-- com.SugerCrm.DemoLoginPageTest -->
+      <class name="com.SugerCrm.UsersBasePageTest">
+        <methods>
+          <include name="notificationsBadgeCountReduced"/>
+          <include name="ClickSugerCubeIconDDBtn"/>
+          <include name="SugerCrmCubeIconVisibe"/>
+          <include name="closeTheBrowser"/>
+          <include name="openBrowserWithCurrentTestPageUrl"/>
+          <include name="ClickSugerCubeIcon"/>
+          <include name="DashLetOverFlowBtnVisible"/>
+          <include name="verifySugerCubeIcon"/>
+        </methods>
+      </class> <!-- com.SugerCrm.UsersBasePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
