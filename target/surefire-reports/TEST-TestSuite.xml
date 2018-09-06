@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="95.305" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="103.852" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\JEEVA\AppData\Local\Temp\surefire5128010517186033599\surefirebooter7886370536032334413.jar C:\Users\JEEVA\AppData\Local\Temp\surefire5128010517186033599 2018-09-05T02-26-11_717-jvmRun1 surefire545930584238485433tmp surefire_02895431921864117407tmp"/>
+    <property name="sun.java.command" value="C:\Users\JEEVA\AppData\Local\Temp\surefire8445380078498855427\surefirebooter8768240285895937741.jar C:\Users\JEEVA\AppData\Local\Temp\surefire8445380078498855427 2018-09-06T02-58-22_752-jvmRun1 surefire4053386695078571936tmp surefire_03064252444438740145tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\JEEVA\eclipse-workspace\SugerCrmMaven\target\test-classes;C:\Users\JEEVA\eclipse-workspace\SugerCrmMaven\target\classes;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\JEEVA\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\JEEVA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JEEVA\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\JEEVA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\JEEVA\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\JEEVA\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\JEEVA\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\JEEVA\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\JEEVA\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\JEEVA\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\JEEVA\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\JEEVA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\JEEVA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\JEEVA\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\JEEVA\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\JEEVA\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\JEEVA\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\JEEVA\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\JEEVA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\JEEVA\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.5\webdrivermanager-2.2.5.jar;C:\Users\JEEVA\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\JEEVA\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\JEEVA\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\JEEVA\.m2\repository\org\rauschig\jarchivelib\0.8.0\jarchivelib-0.8.0.jar;C:\Users\JEEVA\.m2\repository\org\apache\commons\commons-compress\1.14\commons-compress-1.14.jar;C:\Users\JEEVA\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\JEEVA\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\JEEVA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\JEEVA\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\JEEVA\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\JEEVA"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\JEEVA\AppData\Local\Temp\surefire5128010517186033599\surefirebooter7886370536032334413.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\JEEVA\AppData\Local\Temp\surefire8445380078498855427\surefirebooter8768240285895937741.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,20 +60,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verifyDemoText" classname="com.SugerCrm.DemoLoginPageTest" time="0.125"/>
-  <testcase name="verifyPreferenceText" classname="com.SugerCrm.DemoLoginPageTest" time="0.047"/>
-  <testcase name="LanguageDDVisible" classname="com.SugerCrm.DemoLoginPageTest" time="1.154"/>
-  <testcase name="DateDDVisible" classname="com.SugerCrm.DemoLoginPageTest" time="0.154"/>
-  <testcase name="verifyContactUsText" classname="com.SugerCrm.DemoLoginPageTest" time="0.035"/>
-  <testcase name="checkResourceCenterText" classname="com.SugerCrm.DemoLoginPageTest" time="0.045"/>
-  <testcase name="LoginAsVP" classname="com.SugerCrm.DemoLoginPageTest" time="5.113"/>
-  <testcase name="LoginAsSR" classname="com.SugerCrm.DemoLoginPageTest" time="13.38"/>
-  <testcase name="LoginAsCS" classname="com.SugerCrm.DemoLoginPageTest" time="10.336"/>
-  <testcase name="verifyResourceLink" classname="com.SugerCrm.DemoLoginPageTest" time="11.824"/>
-  <testcase name="SugerCrmCubeIconVisibe" classname="com.SugerCrm.UsersBasePageTest" time="0.039"/>
-  <testcase name="verifySugerCubeIcon" classname="com.SugerCrm.UsersBasePageTest" time="1.32"/>
-  <testcase name="ClickSugerCubeIcon" classname="com.SugerCrm.UsersBasePageTest" time="0.183"/>
-  <testcase name="ClickSugerCubeIconDDBtn" classname="com.SugerCrm.UsersBasePageTest" time="0.136"/>
-  <testcase name="DashLetOverFlowBtnVisible" classname="com.SugerCrm.UsersBasePageTest" time="0.034"/>
-  <testcase name="notificationsBadgeCountReduced" classname="com.SugerCrm.UsersBasePageTest" time="7.408"/>
+  <testcase name="verifyDemoText" classname="com.SugerCrm.DemoLoginPageTest" time="0.1"/>
+  <testcase name="verifyPreferenceText" classname="com.SugerCrm.DemoLoginPageTest" time="0.035"/>
+  <testcase name="LanguageDDVisible" classname="com.SugerCrm.DemoLoginPageTest" time="2.224"/>
+  <testcase name="DateDDVisible" classname="com.SugerCrm.DemoLoginPageTest" time="0.102"/>
+  <testcase name="verifyContactUsText" classname="com.SugerCrm.DemoLoginPageTest" time="0.039"/>
+  <testcase name="checkResourceCenterText" classname="com.SugerCrm.DemoLoginPageTest" time="0.037"/>
+  <testcase name="LoginAsVP" classname="com.SugerCrm.DemoLoginPageTest" time="5.087"/>
+  <testcase name="LoginAsSR" classname="com.SugerCrm.DemoLoginPageTest" time="13.447"/>
+  <testcase name="LoginAsCS" classname="com.SugerCrm.DemoLoginPageTest" time="10.293"/>
+  <testcase name="verifyResourceLink" classname="com.SugerCrm.DemoLoginPageTest" time="7.469"/>
+  <testcase name="SugerCrmCubeIconVisibe" classname="com.SugerCrm.UsersBasePageTest" time="0.035"/>
+  <testcase name="verifySugerCubeIcon" classname="com.SugerCrm.UsersBasePageTest" time="0.602"/>
+  <testcase name="ClickSugerCubeIcon" classname="com.SugerCrm.UsersBasePageTest" time="0.24"/>
+  <testcase name="ClickSugerCubeIconDDBtn" classname="com.SugerCrm.UsersBasePageTest" time="0.13"/>
+  <testcase name="DashLetOverFlowBtnVisible" classname="com.SugerCrm.UsersBasePageTest" time="0.039"/>
+  <testcase name="notificationsBadgeCountReduced" classname="com.SugerCrm.UsersBasePageTest" time="7.591"/>
 </testsuite>

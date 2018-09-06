@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="94790" started-at="2018-09-05T06:26:12Z" finished-at="2018-09-05T06:27:47Z">
+  <suite name="Surefire suite" duration-ms="102299" started-at="2018-09-06T06:58:27Z" finished-at="2018-09-06T07:00:09Z">
     <groups>
       <group name="Functional">
         <method signature="DemoLoginPageTest.LoginAsCS()[pri:9, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsCS" class="com.SugerCrm.DemoLoginPageTest"/>
@@ -25,87 +25,87 @@
         <method signature="UsersBasePageTest.verifySugerCubeIcon()[pri:12, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="verifySugerCubeIcon" class="com.SugerCrm.UsersBasePageTest"/>
       </group> <!-- UI -->
     </groups>
-    <test name="Surefire test" duration-ms="94790" started-at="2018-09-05T06:26:12Z" finished-at="2018-09-05T06:27:47Z">
+    <test name="Surefire test" duration-ms="102299" started-at="2018-09-06T06:58:27Z" finished-at="2018-09-06T07:00:09Z">
       <class name="com.SugerCrm.UsersBasePageTest">
-        <test-method status="PASS" signature="SugerCrmCubeIconVisibe()[pri:11, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="SugerCrmCubeIconVisibe" duration-ms="39" started-at="2018-09-05T06:27:36Z" finished-at="2018-09-05T06:27:36Z">
+        <test-method status="PASS" signature="SugerCrmCubeIconVisibe()[pri:11, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="SugerCrmCubeIconVisibe" duration-ms="35" started-at="2018-09-06T06:59:59Z" finished-at="2018-09-06T06:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SugerCrmCubeIconVisibe -->
-        <test-method status="PASS" signature="verifySugerCubeIcon()[pri:12, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="verifySugerCubeIcon" duration-ms="1320" started-at="2018-09-05T06:27:36Z" finished-at="2018-09-05T06:27:38Z">
+        <test-method status="PASS" signature="verifySugerCubeIcon()[pri:12, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="verifySugerCubeIcon" duration-ms="602" started-at="2018-09-06T06:59:59Z" finished-at="2018-09-06T07:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySugerCubeIcon -->
-        <test-method status="PASS" signature="ClickSugerCubeIcon()[pri:13, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="ClickSugerCubeIcon" duration-ms="182" started-at="2018-09-05T06:27:38Z" finished-at="2018-09-05T06:27:38Z">
+        <test-method status="PASS" signature="ClickSugerCubeIcon()[pri:13, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="ClickSugerCubeIcon" duration-ms="240" started-at="2018-09-06T07:00:00Z" finished-at="2018-09-06T07:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSugerCubeIcon -->
-        <test-method status="PASS" signature="ClickSugerCubeIconDDBtn()[pri:14, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="ClickSugerCubeIconDDBtn" duration-ms="136" started-at="2018-09-05T06:27:38Z" finished-at="2018-09-05T06:27:38Z">
+        <test-method status="PASS" signature="ClickSugerCubeIconDDBtn()[pri:14, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="ClickSugerCubeIconDDBtn" duration-ms="129" started-at="2018-09-06T07:00:00Z" finished-at="2018-09-06T07:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSugerCubeIconDDBtn -->
-        <test-method status="PASS" signature="DashLetOverFlowBtnVisible()[pri:15, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="DashLetOverFlowBtnVisible" duration-ms="35" started-at="2018-09-05T06:27:38Z" finished-at="2018-09-05T06:27:38Z">
+        <test-method status="PASS" signature="DashLetOverFlowBtnVisible()[pri:15, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="DashLetOverFlowBtnVisible" duration-ms="37" started-at="2018-09-06T07:00:00Z" finished-at="2018-09-06T07:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashLetOverFlowBtnVisible -->
-        <test-method status="PASS" signature="notificationsBadgeCountReduced()[pri:16, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="notificationsBadgeCountReduced" duration-ms="7409" started-at="2018-09-05T06:27:38Z" finished-at="2018-09-05T06:27:45Z">
+        <test-method status="PASS" signature="notificationsBadgeCountReduced()[pri:16, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="notificationsBadgeCountReduced" duration-ms="7593" started-at="2018-09-06T07:00:00Z" finished-at="2018-09-06T07:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notificationsBadgeCountReduced -->
       </class> <!-- com.SugerCrm.UsersBasePageTest -->
       <class name="com.SugerCrm.DemoLoginPageTest">
-        <test-method status="PASS" signature="openDemoPage()[pri:0, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="openDemoPage" is-config="true" duration-ms="11837" started-at="2018-09-05T06:26:12Z" finished-at="2018-09-05T06:26:24Z">
+        <test-method status="PASS" signature="openDemoPage()[pri:0, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="openDemoPage" is-config="true" duration-ms="25583" started-at="2018-09-06T06:58:27Z" finished-at="2018-09-06T06:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDemoPage -->
-        <test-method status="PASS" signature="openBrowserWithCurrentTestPageUrl()[pri:0, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="openBrowserWithCurrentTestPageUrl" is-config="true" duration-ms="30040" started-at="2018-09-05T06:26:24Z" finished-at="2018-09-05T06:26:54Z">
+        <test-method status="PASS" signature="openBrowserWithCurrentTestPageUrl()[pri:0, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="openBrowserWithCurrentTestPageUrl" is-config="true" duration-ms="27805" started-at="2018-09-06T06:58:52Z" finished-at="2018-09-06T06:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserWithCurrentTestPageUrl -->
-        <test-method status="PASS" signature="verifyDemoText()[pri:1, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyDemoText" duration-ms="125" started-at="2018-09-05T06:26:54Z" finished-at="2018-09-05T06:26:54Z">
+        <test-method status="PASS" signature="verifyDemoText()[pri:1, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyDemoText" duration-ms="98" started-at="2018-09-06T06:59:20Z" finished-at="2018-09-06T06:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDemoText -->
-        <test-method status="PASS" signature="verifyPreferenceText()[pri:2, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyPreferenceText" duration-ms="47" started-at="2018-09-05T06:26:54Z" finished-at="2018-09-05T06:26:54Z">
+        <test-method status="PASS" signature="verifyPreferenceText()[pri:2, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyPreferenceText" duration-ms="36" started-at="2018-09-06T06:59:20Z" finished-at="2018-09-06T06:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPreferenceText -->
-        <test-method status="PASS" signature="LanguageDDVisible()[pri:3, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LanguageDDVisible" duration-ms="1154" started-at="2018-09-05T06:26:54Z" finished-at="2018-09-05T06:26:55Z">
+        <test-method status="PASS" signature="LanguageDDVisible()[pri:3, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LanguageDDVisible" duration-ms="2224" started-at="2018-09-06T06:59:20Z" finished-at="2018-09-06T06:59:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanguageDDVisible -->
-        <test-method status="PASS" signature="DateDDVisible()[pri:4, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="DateDDVisible" duration-ms="153" started-at="2018-09-05T06:26:55Z" finished-at="2018-09-05T06:26:56Z">
+        <test-method status="PASS" signature="DateDDVisible()[pri:4, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="DateDDVisible" duration-ms="102" started-at="2018-09-06T06:59:22Z" finished-at="2018-09-06T06:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DateDDVisible -->
-        <test-method status="PASS" signature="verifyContactUsText()[pri:5, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyContactUsText" duration-ms="35" started-at="2018-09-05T06:26:56Z" finished-at="2018-09-05T06:26:56Z">
+        <test-method status="PASS" signature="verifyContactUsText()[pri:5, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyContactUsText" duration-ms="39" started-at="2018-09-06T06:59:23Z" finished-at="2018-09-06T06:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUsText -->
-        <test-method status="PASS" signature="checkResourceCenterText()[pri:6, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="checkResourceCenterText" duration-ms="45" started-at="2018-09-05T06:26:56Z" finished-at="2018-09-05T06:26:56Z">
+        <test-method status="PASS" signature="checkResourceCenterText()[pri:6, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="checkResourceCenterText" duration-ms="36" started-at="2018-09-06T06:59:23Z" finished-at="2018-09-06T06:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResourceCenterText -->
-        <test-method status="PASS" signature="LoginAsVP()[pri:7, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsVP" duration-ms="5113" started-at="2018-09-05T06:26:56Z" finished-at="2018-09-05T06:27:01Z">
+        <test-method status="PASS" signature="LoginAsVP()[pri:7, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsVP" duration-ms="5087" started-at="2018-09-06T06:59:23Z" finished-at="2018-09-06T06:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAsVP -->
-        <test-method status="PASS" signature="LoginAsSR()[pri:8, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsSR" duration-ms="13379" started-at="2018-09-05T06:27:01Z" finished-at="2018-09-05T06:27:14Z">
+        <test-method status="PASS" signature="LoginAsSR()[pri:8, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsSR" duration-ms="13447" started-at="2018-09-06T06:59:28Z" finished-at="2018-09-06T06:59:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAsSR -->
-        <test-method status="PASS" signature="LoginAsCS()[pri:9, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsCS" duration-ms="10336" started-at="2018-09-05T06:27:14Z" finished-at="2018-09-05T06:27:25Z">
+        <test-method status="PASS" signature="LoginAsCS()[pri:9, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="LoginAsCS" duration-ms="10294" started-at="2018-09-06T06:59:41Z" finished-at="2018-09-06T06:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAsCS -->
-        <test-method status="PASS" signature="verifyResourceLink()[pri:10, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyResourceLink" duration-ms="11823" started-at="2018-09-05T06:27:25Z" finished-at="2018-09-05T06:27:36Z">
+        <test-method status="PASS" signature="verifyResourceLink()[pri:10, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="verifyResourceLink" duration-ms="7469" started-at="2018-09-06T06:59:51Z" finished-at="2018-09-06T06:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResourceLink -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="quitBrowser" is-config="true" duration-ms="858" started-at="2018-09-05T06:27:45Z" finished-at="2018-09-05T06:27:46Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.SugerCrm.DemoLoginPageTest@4909b8da]" name="quitBrowser" is-config="true" duration-ms="719" started-at="2018-09-06T07:00:08Z" finished-at="2018-09-06T07:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="closeTheBrowser" is-config="true" duration-ms="702" started-at="2018-09-05T06:27:46Z" finished-at="2018-09-05T06:27:47Z">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.SugerCrm.UsersBasePageTest@3a03464]" name="closeTheBrowser" is-config="true" duration-ms="703" started-at="2018-09-06T07:00:08Z" finished-at="2018-09-06T07:00:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
