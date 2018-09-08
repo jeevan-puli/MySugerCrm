@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -21,6 +22,10 @@ import com.utilityFiles.BrowserSetUpFile;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.URL;
+
 
 
 public class DemoLoginPageTest {
@@ -30,6 +35,11 @@ public class DemoLoginPageTest {
 	public WebDriverWait wait;
 	public BrowserSetUpFile browserSetup = null;
 	
+	public static final String USERNAME = "jeevankumarpuli1";
+	public static final String AUTOMATE_KEY = "xwZHrMyRp5VaUcp4Hyo9";
+	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+	
 
 	@BeforeTest
 	public void openDemoPage() throws IOException{
@@ -38,8 +48,14 @@ public class DemoLoginPageTest {
 		
 		if(browserSetup.selectDriver().equalsIgnoreCase("chrome")) {
 			
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			DesiredCapabilities caps = new DesiredCapabilities();
+		    caps.setCapability("browser", "Chrome");
+		    caps.setCapability("browser_version", "69.0 beta");
+		    caps.setCapability("os", "Windows");
+		    caps.setCapability("os_version", "10");
+		    caps.setCapability("resolution", "1024x768");
+		    
+			driver = new RemoteWebDriver(new URL(URL), caps);
 				
 		}else if(browserSetup.selectDriver().equalsIgnoreCase("FireFox")) {
 			
